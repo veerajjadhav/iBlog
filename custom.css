@@ -136,7 +136,7 @@ body{
 .header-navbar{
     margin:0;
 }
-.container{
+.wrapper{
     margin: 0;
     padding:40px;
     width: 100%;
@@ -218,8 +218,10 @@ h3{
     display: flex;
     justify-content:space-between;
 }
-.old-post,.about-us{
+.old-post{
     list-style:none;
+}
+.old-post,.about-us,.main-footer{
     padding-top:50px;
     border-top: solid 1px rgba(160, 160, 160, 0.3);
     margin-top: 50px;
@@ -248,7 +250,7 @@ h3{
 }
 .button{
     border:solid 1px rgba(160, 160, 160, 0.3);
-    padding: 10px 20px;
+    padding: 15px 23px;
     color:#3c3b3b;
     font-size: 10px;
     font-family: raleway;
@@ -262,6 +264,73 @@ footer .social-links a{
     font-size:16px;
     color: #aaaaaa;
     padding-right: 18px;
-
+}
+.main-footer{
+    color: #aaaaaa;
+    font-weight: 400;
+    letter-spacing: 2.3px;
+    font-size: 8px;
 }
 
+.post{
+    /*    padding: 48px 48px 16px 48px;*/
+    border: solid 1px rgba(160, 160, 160, 0.3);
+    background: #fff;
+}
+.social-links{
+    margin-bottom: 32px;
+}
+.new-post-header a .new-post-heading{
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 6px;
+    font-family: "Raleway", Helvetica, sans-serif;
+    color:#3c3b3b;
+    margin:0 0 24px 0;
+}
+.new-post-header a .new-post-heading:hover{
+    color:#2ebaae !important;
+    transition: all 0.3s;
+    text-decoration:none;
+}
+.new-post-tagline{
+    font-size: 11.2px;
+    letter-spacing: 2.8px;
+    margin-bottom: 25px;
+}
+.author-details .author-name {
+    font-size: 9.6px;
+    letter-spacing: 2.4px;
+    margin-right: 14px;
+}
+.my-row{
+    padding:60px 30px 20px 30px;
+}
+.new-post-image{
+    padding:50px 30px;
+    border-top: solid 1px rgba(160, 160, 160, 0.3);
+}
+.new-post-details{
+    font-size: 14px;
+    line-height: 1.75;
+    margin: 35px 0;
+}
+.follow-post .likes,.follow-post .comments{
+    border-bottom:0;
+}
+.follow-post {
+    display: inline;
+}
+.follow-post a{
+    border-left: solid 2px red;
+    font-size: 10px;
+}
+.general{
+    border:0 !important;
+}
+.digit{
+    padding-left: 8px;
+}
+.likes{
+    margin:0 20px;
+}
