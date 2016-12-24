@@ -322,15 +322,25 @@ footer .social-links a{
     display: inline;
 }
 .follow-post a{
-    border-left: solid 2px red;
+    border-left: solid 1px rgba(160, 160, 160, 0.3);
     font-size: 10px;
 }
 .general{
-    border:0 !important;
+    /*    border:0 !important;*/
+    margin-right:10px;
+    border-left:0 !important;
 }
 .digit{
     padding-left: 8px;
 }
-.likes{
-    margin:0 20px;
+.likes,.comments{
+
+    padding:0 10px;
+}
+.social-container{
+    display:flex;
+    justify-content:space-between;
+}
+.mypost{
+    margin-top: 40px;
 }
