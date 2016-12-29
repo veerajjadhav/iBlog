@@ -82,13 +82,6 @@ body{
     right: 100%;
     top:7px;
 }
-
-/*.search-btn:focus{
-    border:0;
-    -webkit-appearance: none;
-    box-shadow: none;
-    outline:0;
-}*/
 .search-btn:hover , .side-menu:hover{
     color:#2ebaae;
     background: none;
@@ -343,4 +336,31 @@ footer .social-links a{
 }
 .mypost{
     margin-top: 40px;
+}
+.pagination .disabled a:hover{
+    color:#646464 !important;
+    box-shadow: none;
+    background: none;
+    cursor: text !important;
+}
+.pagination .disabled a ,.pagination .enable a{
+    padding: 15px 25px;
+    border-radius: 0;
+    background: none;
+}
+.pagination .enable{
+    margin-left: 50px;
+    display: inline-block;
+}
+.pagination .enable a{
+    color:#3c3b3b;
+}
+.pagination{
+    display: flex;
+    justify-content:flex-start;
+}
+.test:hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+    overflow: hidden;
 }
